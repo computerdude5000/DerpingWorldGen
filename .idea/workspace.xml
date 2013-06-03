@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GoldPop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GrassPop.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GrassPop.java" />
     </list>
     <ignored path="DerpingWorldGen.iws" />
@@ -116,7 +114,7 @@
       <file leaf-file-name="BasicDerpingGen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="32" selection-start="5296" selection-end="5296" vertical-scroll-proportion="0.6851852">
+            <state line="138" column="13" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.8425926">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5177#5193#0" expanded="true" />
@@ -645,7 +643,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="32" selection-start="5296" selection-end="5296" vertical-scroll-proportion="0.6851852">
+        <state line="138" column="13" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.8425926">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5177#5193#0" expanded="true" />
