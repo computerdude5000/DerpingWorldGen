@@ -1,0 +1,4 @@
+name: DerpingWorldGen
+version: 1.0
+main: com.github.computerdude5000.derpingworldgen.DerpingWorldGen
+load: startup
