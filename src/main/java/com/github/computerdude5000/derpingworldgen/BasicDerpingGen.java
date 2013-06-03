@@ -4,6 +4,7 @@
 package com.github.computerdude5000.derpingworldgen;
 
 import com.github.computerdude5000.derpingworldgen.populators.DirtPop;
+import com.github.computerdude5000.derpingworldgen.populators.GoldPop;
 import com.github.computerdude5000.derpingworldgen.populators.GrassPop;
 import org.bukkit.Material;
 import org.bukkit.World;
@@ -112,7 +113,7 @@ public class BasicDerpingGen  extends ChunkGenerator
 
                 double gen1MaxHeight = gen1.noise(realX, realZ, frequency, amplitude) * multitude + sea_level;
                 double gen2MaxHeight = gen2.noise(realX, realZ, frequency1, amplitude1)* multitude1 + sea_level;
-                double maxHeight =Math.max(gen1MaxHeight ,gen2MaxHeight);
+                double maxHeight = Math.max(gen1MaxHeight ,gen2MaxHeight);
                 for (int y=0;y<maxHeight;y++) {
                     setBlock(x,y,z,chunk,Material.STONE); //set the current block to stone
                     setBlock(x,y+1,z,chunk,Material.GRASS);
@@ -130,6 +131,7 @@ public class BasicDerpingGen  extends ChunkGenerator
         ArrayList<BlockPopulator> pops = new ArrayList<BlockPopulator>();
         pops.add(new DirtPop());
         pops.add(new GrassPop());
+        pops.add(new GoldPop());
 
         return pops;
     }
