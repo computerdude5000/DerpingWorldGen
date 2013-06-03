@@ -28,7 +28,6 @@ public class GrassPop extends BlockPopulator
                 int realZ = z + chunk.getZ() * 16;
                 world.getBlockAt(realX, 48, realZ).setType(Material.WATER);
                 world.getBlockAt(realX, 49, realZ).setType(Material.GRASS);
-                world.getBlockAt(realX, 50, realZ).setType(Material.LONG_GRASS);
 
             }
         }

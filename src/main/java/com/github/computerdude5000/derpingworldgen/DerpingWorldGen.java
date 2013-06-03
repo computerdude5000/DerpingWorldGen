@@ -6,6 +6,8 @@ package com.github.computerdude5000.derpingworldgen;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.IOException;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Administrator
@@ -18,7 +20,12 @@ public class DerpingWorldGen extends JavaPlugin
 {
 
     public void onEnable(){
-
+        try {
+            Metrics metrics = new Metrics(this);
+            metrics.start();
+        } catch (IOException e) {
+            // Failed to submit the stats :-(
+        }
     }
     public void onDisable(){
 
