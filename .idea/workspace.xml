@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/Metrics.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GrassPop.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GrassPop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DerpingWorldGen.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370227774218" ignored="false" />
+    <file path="/Dummy.txt" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370229288406" ignored="false" />
     <file path="/plugin.yml" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370225353687" ignored="false" />
     <file path="/DerpingWorldGen.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370225742265" ignored="false" />
     <file path="/BasicDerpingGen.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370228787734" ignored="false" />
     <file path="/DirtPop.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370226735140" ignored="false" />
     <file path="/GrassPop.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370226852125" ignored="false" />
     <file path="/GoldPop.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370228764687" ignored="false" />
+    <file path="/Metrics.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370229420703" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +114,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicDerpingGen.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BasicDerpingGen.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="138" column="13" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.8425926">
+            <state line="138" column="13" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5177#5193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Metrics.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/Metrics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="53" selection-start="434" selection-end="434" vertical-scroll-proportion="0.36889693">
+              <folding>
+                <element signature="e#19016#19025#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -181,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GrassPop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GoldPop.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/Metrics.java" />
       </list>
     </option>
   </component>
@@ -302,36 +317,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="derpingworldgen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DerpingWorldGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DerpingWorldGen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="derpingworldgen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="populators" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -643,10 +628,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="13" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.8425926">
+        <state line="138" column="13" selection-start="5327" selection-end="5327" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5177#5193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/Metrics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="434" selection-end="434" vertical-scroll-proportion="0.36889693">
+          <folding>
+            <element signature="e#19016#19025#0" expanded="true" />
           </folding>
         </state>
       </provider>
