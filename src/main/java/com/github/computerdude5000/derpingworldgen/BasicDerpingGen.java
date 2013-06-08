@@ -89,9 +89,9 @@ public class BasicDerpingGen  extends ChunkGenerator
                  }  else if (x-y+z % 3 == 0 ){
                      setBlock(x,y,z,chunk,Material.SAND);
                  } else if (x*z*y % 7 == 0 ){
-                     setBlock(x,y,z,chunk,Material.REDSTONE_ORE);
-                 } else if (x+y*4*z /4 % 3 == 0 ){
                      setBlock(x,y,z,chunk,Material.ENDER_STONE);
+                 } else if (x+y*4*z /4 % 3 == 0 ){
+                     setBlock(x,y,z,chunk,Material.REDSTONE_ORE);
                  } else {
                      setBlock(x,y,z,chunk,Material.DIRT);
                  }

@@ -27,8 +27,8 @@ public class GoldPop extends BlockPopulator
             for (int z=0;z<16;z++) {
                 int realX = x + chunk.getX() * 16; //find the world location of chunk location x
                 int realZ = z + chunk.getZ() * 16;
-                world.getBlockAt(realX % 2, 20, realZ).setType(Material.GOLD_ORE);
-                world.getBlockAt(realX % 2, 21, realZ).setType(Material.GOLD_ORE);
+                world.getBlockAt(realX , 20, realZ).setType(Material.GOLD_ORE);
+                world.getBlockAt(realX , 21, realZ).setType(Material.GOLD_ORE);
 
             }
         }

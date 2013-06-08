@@ -28,9 +28,9 @@ public class SaplingsPop
             for (int z=0;z<16;z++) {
                 int realX = x + chunk.getX() * 16; //find the world location of chunk location x
                 int realZ = z + chunk.getZ() * 16;
-                world.getBlockAt(realX, 45, realZ).setType(Material.DIRT);
-                world.getBlockAt(realX, 46, realZ).setType(Material.DIRT);
-                world.getBlockAt(realX, 47, realZ).setType(Material.DIRT);
+                world.getBlockAt(realX, 44, realZ).setType(Material.DIRT);
+                world.getBlockAt(realX, 45, realZ).setType(Material.SAPLING);
+
             }
         }
     }
