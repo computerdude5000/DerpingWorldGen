@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GoldPop.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/populators/GoldPop.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DerpingWorldGen.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370701328295" ignored="false" />
+    <file path="/Dummy.txt" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370733856814" ignored="false" />
     <file path="/plugin.yml" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370225353687" ignored="false" />
     <file path="/DerpingWorldGen.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370225742265" ignored="false" />
     <file path="/BasicDerpingGen.java" changelist="2fbc8317-b2ec-4b59-b733-ada5ea1563b5" time="1370733519845" ignored="false" />
@@ -99,10 +97,10 @@
       <file leaf-file-name="BasicDerpingGen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="43" selection-start="3726" selection-end="3726" vertical-scroll-proportion="0.7669173">
+            <state line="118" column="17" selection-start="4937" selection-end="4937" vertical-scroll-proportion="0.8402256">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5324#5340#0" expanded="true" />
+                <element signature="e#5326#5342#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -488,7 +486,11 @@
       <created>1370701335403</created>
       <updated>1370701335403</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="this is soo derping.">
+      <created>1370733907970</created>
+      <updated>1370733907970</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -559,7 +561,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="more pop work :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is soo derping." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -577,6 +579,7 @@
     <MESSAGE value="world gen :D&#10;" />
     <MESSAGE value="enable metrics :D&#10;" />
     <MESSAGE value="more pop work :D" />
+    <MESSAGE value="this is soo derping." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -685,10 +688,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/computerdude5000/derpingworldgen/BasicDerpingGen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="43" selection-start="3726" selection-end="3726" vertical-scroll-proportion="0.7669173">
+        <state line="118" column="17" selection-start="4937" selection-end="4937" vertical-scroll-proportion="0.8402256">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5324#5340#0" expanded="true" />
+            <element signature="e#5326#5342#0" expanded="true" />
           </folding>
         </state>
       </provider>

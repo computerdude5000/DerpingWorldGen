@@ -116,7 +116,7 @@ public class BasicDerpingGen  extends ChunkGenerator
                     setBlock(x,y,z,chunk,Material.STONE); //set the current block to stone
                    // setBlock(x,y+1,z,chunk,Material.GRASS);
                 }
-                setBlock(x, (int) (maxHeight+1),z,chunk,Material.GRASS);
+               // setBlock(x, (int) (maxHeight+1),z,chunk,Material.GRASS);
             }
         }
         return chunk;
