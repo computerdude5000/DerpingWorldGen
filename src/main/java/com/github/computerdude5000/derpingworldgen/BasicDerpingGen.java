@@ -6,6 +6,7 @@ package com.github.computerdude5000.derpingworldgen;
 import com.github.computerdude5000.derpingworldgen.populators.DirtPop;
 import com.github.computerdude5000.derpingworldgen.populators.GoldPop;
 import com.github.computerdude5000.derpingworldgen.populators.GrassPop;
+import com.github.computerdude5000.derpingworldgen.populators.SaplingsPop;
 import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.generator.BlockPopulator;
@@ -72,9 +73,6 @@ public class BasicDerpingGen  extends ChunkGenerator
         gen2.setScale(1/64.0);
         gen2.setScale(1/73.8);
 
-
-
-
         for (int x=0; x<16; x++) { //loop through all of the blocks in the chunk that are lower than maxHeight
             for (int z=0; z<16; z++) {
                 int maxHeight = 45; //how thick we want it to be.
@@ -90,7 +88,7 @@ public class BasicDerpingGen  extends ChunkGenerator
                      setBlock(x,y,z,chunk,Material.SAND);
                  } else if (x*z*y % 7 == 0 ){
                      setBlock(x,y,z,chunk,Material.ENDER_STONE);
-                 } else if (x+y*4*z /4 % 3 == 0 ){
+                 } else if (x+y*4*z /6 % 3 == 0 ){
                      setBlock(x,y,z,chunk,Material.REDSTONE_ORE);
                  } else {
                      setBlock(x,y,z,chunk,Material.DIRT);
@@ -116,8 +114,9 @@ public class BasicDerpingGen  extends ChunkGenerator
                 double maxHeight = Math.max(gen1MaxHeight ,gen2MaxHeight);
                 for (int y=0;y<maxHeight;y++) {
                     setBlock(x,y,z,chunk,Material.STONE); //set the current block to stone
-                    setBlock(x,y+1,z,chunk,Material.GRASS);
+                   // setBlock(x,y+1,z,chunk,Material.GRASS);
                 }
+                setBlock(x, (int) (maxHeight+1),z,chunk,Material.GRASS);
             }
         }
         return chunk;
@@ -132,6 +131,7 @@ public class BasicDerpingGen  extends ChunkGenerator
         pops.add(new DirtPop());
         pops.add(new GrassPop());
         pops.add(new GoldPop());
+        pops.add(new SaplingsPop());
 
         return pops;
     }

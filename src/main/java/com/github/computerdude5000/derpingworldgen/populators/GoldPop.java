@@ -29,7 +29,7 @@ public class GoldPop extends BlockPopulator
                 int realZ = z + chunk.getZ() * 16;
                 world.getBlockAt(realX , 20, realZ).setType(Material.GOLD_ORE);
                 world.getBlockAt(realX , 21, realZ).setType(Material.GOLD_ORE);
-
+                world.getBlockAt(realX % 2, 20, realZ).setType(Material.STONE);
             }
         }
     }
