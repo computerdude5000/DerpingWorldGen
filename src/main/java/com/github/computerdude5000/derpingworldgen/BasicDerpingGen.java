@@ -13,6 +13,7 @@ import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.util.noise.SimplexOctaveGenerator;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -112,11 +113,12 @@ public class BasicDerpingGen  extends ChunkGenerator
                 double gen1MaxHeight = gen1.noise(realX, realZ, frequency, amplitude) * multitude + sea_level;
                 double gen2MaxHeight = gen2.noise(realX, realZ, frequency1, amplitude1)* multitude1 + sea_level;
                 double maxHeight = Math.max(gen1MaxHeight ,gen2MaxHeight);
+                int maxHeightInt = (int) maxHeight;
                 for (int y=0;y<maxHeight;y++) {
                     setBlock(x,y,z,chunk,Material.STONE); //set the current block to stone
                    // setBlock(x,y+1,z,chunk,Material.GRASS);
                 }
-               // setBlock(x, (int) (maxHeight+1),z,chunk,Material.GRASS);
+                setBlock( x , maxHeightInt , z , chunk , Material.GRASS);
             }
         }
         return chunk;

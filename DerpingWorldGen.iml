@@ -13,6 +13,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: org.bukkit:bukkit:1.5.1-R0.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.bukkit:craftbukkit:1.5.1-R0.3-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: net.milkbowl.vault:Vault:1.2.24-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.gmail.nossr50.mcMMO:mcMMO:1.4.05-dev1" level="project" />
     <orderEntry type="library" name="Maven: org.getspout:spoutplugin:1.5.2-R0.1-SNAPSHOT" level="project" />
