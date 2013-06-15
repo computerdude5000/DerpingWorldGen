@@ -18,8 +18,7 @@ import java.util.Random;
  * To change this template use File | Settings | File Templates.
  */
 
-public class DiamondPop
-        extends BlockPopulator
+public class DiamondPop extends BlockPopulator
 {
 
     @Override

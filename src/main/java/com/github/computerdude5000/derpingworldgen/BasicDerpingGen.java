@@ -9,10 +9,11 @@ import com.github.computerdude5000.derpingworldgen.populators.GrassPop;
 import com.github.computerdude5000.derpingworldgen.populators.SaplingsPop;
 import org.bukkit.Material;
 import org.bukkit.World;
+import org.bukkit.craftbukkit.v1_5_R3.CraftWorld;
 import org.bukkit.generator.BlockPopulator;
 import org.bukkit.generator.ChunkGenerator;
 import org.bukkit.util.noise.SimplexOctaveGenerator;
-
+import net.minecraft.server.v1_5_R3.WorldGenForest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -66,6 +67,7 @@ public class BasicDerpingGen  extends ChunkGenerator
  * The x and z co-ordinates of the current chunk.
  */
     public byte[][] generateBlockSections(World world, Random rand, int ChunkX, int ChunkZ, BiomeGrid biome) {
+        net.minecraft.server.v1_5_R3.World mcWorld = ((CraftWorld) world).getHandle();
         byte[][] chunk = new byte[world.getMaxHeight() / 16][];
         SimplexOctaveGenerator gen1 = new SimplexOctaveGenerator(world,8);
         SimplexOctaveGenerator gen2 = new SimplexOctaveGenerator(world,8);
@@ -82,17 +84,30 @@ public class BasicDerpingGen  extends ChunkGenerator
                      setBlock(x,y,z,chunk,Material.STONE);
 
                  } else if (x+y+z % 3 == 0) {
+
                         setBlock(x,y,z,chunk,Material.SOUL_SAND);
-                    } else if (x+y-z % 2 == 0 ){
+                    }
+                 else if (x+y-z % 2 == 0 ){
+
                      setBlock(x,y,z,chunk,Material.SANDSTONE);
-                 }  else if (x-y+z % 3 == 0 ){
+                 }
+                 else if (x-y+z % 3 == 0 ){
+
                      setBlock(x,y,z,chunk,Material.SAND);
-                 } else if (x*z*y % 7 == 0 ){
+                 }
+                 else if (x*z*y % 7 == 0 ){
+
                      setBlock(x,y,z,chunk,Material.ENDER_STONE);
-                 } else if (x+y*4*z /6 % 3 == 0 ){
+                 }
+                 else if (x+y*4*z /6 % 3 == 0 ){
+
                      setBlock(x,y,z,chunk,Material.REDSTONE_ORE);
-                 } else {
+                 }
+                 else {
+
                      setBlock(x,y,z,chunk,Material.DIRT);
+
+                     new WorldGenForest(true).a(mcWorld, rand,x,y,z) ;
                  }
                 }
             }
@@ -134,6 +149,7 @@ public class BasicDerpingGen  extends ChunkGenerator
         pops.add(new GrassPop());
         pops.add(new GoldPop());
         pops.add(new SaplingsPop());
+
 
         return pops;
     }
